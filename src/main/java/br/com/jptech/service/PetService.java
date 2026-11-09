@@ -1,19 +1,12 @@
-package br.com.alura.service;
+package br.com.jptech.service;
 
-import br.com.alura.client.ClientHttpConfiguration;
-import br.com.alura.domain.Pet;
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import br.com.jptech.client.ClientHttpConfiguration;
+import br.com.jptech.domain.Pet;
 import tools.jackson.databind.ObjectMapper;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Arrays;
 import java.util.List;

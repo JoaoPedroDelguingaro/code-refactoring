@@ -1,8 +1,8 @@
-package br.com.alura;
+package br.com.jptech;
 
-import br.com.alura.client.ClientHttpConfiguration;
-import br.com.alura.service.AbrigoService;
-import br.com.alura.service.PetService;
+import br.com.jptech.client.ClientHttpConfiguration;
+import br.com.jptech.service.AbrigoService;
+import br.com.jptech.service.PetService;
 import java.util.Scanner;
 
 public class AdopetConsoleApplication {

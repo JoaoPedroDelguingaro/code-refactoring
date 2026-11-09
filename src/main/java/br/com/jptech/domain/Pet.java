@@ -1,4 +1,4 @@
-package br.com.alura.domain;
+package br.com.jptech.domain;
 
 public class Pet {
     private Long id;
@@ -24,6 +24,8 @@ public class Pet {
         this.peso = peso;
     }
 
+    public Pet(){}
+
     public Long getId() {
         return id;
     }
@@ -42,6 +44,14 @@ public class Pet {
 
     public int getIdade() {
         return idade;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public float getPeso() {
+        return peso;
     }
 }
 
